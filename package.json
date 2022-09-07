@@ -1,7 +1,7 @@
 {
   "name": "emoji-picker",
   "main": "./src/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Show graphical emoji picker",
   "keywords": [],
   "repository": "https://github.com/Fus1onDev/inkdrop-emoji-picker",
