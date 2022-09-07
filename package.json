@@ -1,0 +1,23 @@
+{
+  "name": "emoji-picker",
+  "main": "./src/main",
+  "version": "0.0.0",
+  "description": "Show graphical emoji picker",
+  "keywords": [],
+  "repository": "https://github.com/Fus1onDev/inkdrop-emoji-picker",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.x"
+  },
+  "dependencies": {
+    "emoji-mart": "^3.0.0",
+    "emoji-regex": "^10.1.0",
+    "js-yaml": "^4.1.0",
+    "white-matter": "^0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}

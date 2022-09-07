@@ -1,0 +1,35 @@
+@import (inline) "../node_modules/emoji-mart/css/emoji-mart.css";
+
+.emoji-picker {
+  position: relative;
+
+  .emoji-picker-dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .emoji {
+      font-size: 1.2rem;
+      vertical-align: middle;
+    }
+  }
+
+  .emoji-picker-observer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    &.untouchable {
+      pointer-events: none;
+    }
+  }
+
+  .emoji-picker-menu {
+    position: absolute;
+    z-index: 3;
+  }
+}
