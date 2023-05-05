@@ -8,6 +8,10 @@ This plugin adds an emoji picker to the editor bar.
 
 ## Changelog
 
+### 0.2.1
+
+- Remove unneeded left in the LESS file
+
 ### 0.2.0
 
 - Upgrade `emoji-mart` to 5.x
