@@ -1,23 +1,22 @@
 {
   "name": "emoji-picker",
   "main": "./src/main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Show graphical emoji picker",
   "keywords": [],
-  "repository": "https://github.com/Fus1onDev/inkdrop-emoji-picker",
+  "repository": "https://github.com/fus1ondev/inkdrop-emoji-picker",
   "license": "MIT",
   "engines": {
     "inkdrop": "^5.x"
   },
   "dependencies": {
-    "emoji-mart": "^3.0.0",
+    "@emoji-mart/data": "^1.1.2",
+    "@emoji-mart/react": "^1.1.1",
     "emoji-regex": "^10.1.0",
     "js-yaml": "^4.1.0",
-    "white-matter": "^0.1.0"
+    "white-matter": "^0.2.0"
   },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": true
-    }
+  "overrides": {
+    "react": "./_NOT_USED_"
   }
 }

@@ -2,10 +2,11 @@
 
 import React, { useState } from 'react'
 import { actions } from 'inkdrop'
-import { Picker } from 'emoji-mart'
+import Picker from '@emoji-mart/react'
+import emojiData from '@emoji-mart/data'
 import yaml from 'js-yaml'
-const matter = require('white-matter')
-const emojiRegex = require('emoji-regex')
+import matter from 'white-matter'
+import emojiRegex from 'emoji-regex'
 
 function generateFrontMatter(data, emoji) {
   const newData = {
@@ -70,7 +71,7 @@ export const EmojiPicker = () => {
       <div className={'emoji-picker-observer '+ (isShown ? undefined : 'untouchable')} onClick={closePicker}/>
       {isShown ?  
         <div className='emoji-picker-menu'>
-          <Picker set='apple' onSelect={selectEmoji} showPreview={false} showSkinTones={false} native/>
+          <Picker data={emojiData} onEmojiSelect={selectEmoji} previewPosition={"none"} />
         </div>
       : undefined}
     </div>
