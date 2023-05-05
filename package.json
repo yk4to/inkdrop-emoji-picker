@@ -1,7 +1,7 @@
 {
   "name": "emoji-picker",
   "main": "./src/main",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Show graphical emoji picker",
   "keywords": [],
   "repository": "https://github.com/fus1ondev/inkdrop-emoji-picker",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
+    "emoji-mart": "^5.5.2",
     "emoji-regex": "^10.1.0",
     "js-yaml": "^4.1.0",
     "white-matter": "^0.2.0"
